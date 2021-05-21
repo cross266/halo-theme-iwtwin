@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <#include "common/head1.ftl">
-<@head title="我是小包子"/>
+<@head title="首页"/>
 <body class="home blog lang-cn el-boxed">
 <#include "common/header.ftl">
 <div id="wrap">
