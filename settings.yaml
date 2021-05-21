@@ -1,0 +1,43 @@
+genernal:
+  label: 基本设置
+  items:
+    icp:
+      name: icp
+      label: ICP备案号
+      type: text
+      placeholder: '请填写ICP备案号'
+aside:
+  label: 轮播、侧边栏设置
+  items:
+    weixin_gongzhonghao:
+      name: weixin_gongzhonghao
+      label: 微信公众号
+      type: attachment
+      placeholder: '请选择微信公众号'
+    carousel_big:
+      name: carousel_big
+      label: 轮播图设置
+      type: text
+      placeholder: '存在的分类slug,不填不展示,文章数小于3不展示'
+    first_aside:
+      name: first_aside
+      label: 分类1（列表样式）
+      type: text
+      placeholder: '存在的分类slug,不填不展示'
+    second_aside:
+      name: second_aside
+      label: 分类2(卡片样式)
+      type: text
+      placeholder: '存在的分类slug,不填不展示'
+    show_tag:
+      name: show_tag
+      label: 标签
+      type: radio
+      data-type: bool
+      default: true 
+      description: ''
+      options: 
+        - value: true 
+          label: 开启
+        - value: false
+          label: 关闭
