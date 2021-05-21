@@ -1,10 +1,9 @@
-# 配置详情请参考：https://docs.halo.run/zh/developer-guide/theme/config-files
 id: iwtwin
 name: iwtwin
 author:
   name: cross
   website: https://www.kuya123.com
-description: 作为一个css的新手，很努力的写了这个主题，作为博客，当然和很多很（mei）炫（mao）丽(yong)的主题无法相提并论，但是目前能力有限，后期版本迭代吧
+description: 简单的没有风格名字
 logo: https://avatars.githubusercontent.com/u/5645103?s=60&v=4
 website: https://www.kuya123.com
 repo: https://github.com/cross266/iwtwin
