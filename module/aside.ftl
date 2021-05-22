@@ -2,6 +2,7 @@
         <aside class="sidebar">
             <#if settings.weixin_gongzhonghao?? && settings.weixin_gongzhonghao != ''>
             <div id="wpcom-post-thumb-3" class="widget widget_post_thumb">
+                <p style="font-size:16px;">关注本站公众号</p>
                 <ul>
                     <li class="item">
                         <div >
