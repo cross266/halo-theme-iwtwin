@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <#include "common/head.ftl">
-<style>        :root{--theme-color:#f45500;--theme-hover:#f45500;}
+<@head title="友情链接"/>
+<style>
+        :root{--theme-color:#f45500;--theme-hover:#f45500;}
         @media (min-width: 992px){
             body{  background-color: #f5f5f5; background-repeat: no-repeat;background-size: 100% auto;background-size:cover;background-position: center top;}
             .special-head .special-title,.special-head p{color:#ffffff;}.special-head .page-description:before{background:#ffffff;}            .special-head .page-description:before,.special-head p{opacity: 0.8;}

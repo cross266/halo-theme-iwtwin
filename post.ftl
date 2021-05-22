@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <#include "common/head.ftl">
+<@head title="${post.title!}"/>
 <body class="post-template-default single single-post postid-3063480 single-format-standard lang-cn el-boxed">
 <#include "common/header.ftl">
 <div id="wrap">

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <#include "common/head.ftl">
+<@head title="${category.name!}"/>
 <body class="archive category category-huodong category-3 lang-cn el-boxed">
 <#include "common/header.ftl">
 <div id="wrap">

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<#include "common/head1.ftl">
+<#include "common/head.ftl">
 <@head title="首页"/>
 <body class="home blog lang-cn el-boxed">
 <#include "common/header.ftl">

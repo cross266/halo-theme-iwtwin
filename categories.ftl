@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <#include "common/head.ftl">
+<@head title="文章分类"/>
 <body class="archive category category-hangqing category-553 lang-cn el-boxed">
 <#include "common/header.ftl">
 <div id="wrap">

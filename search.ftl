@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<#include "common/head1.ftl">
+<#include "common/head.ftl">
 <@head title="${keyword!}"/>
 <body class="archive category category-zixun category-1 lang-cn el-boxed">
 <#include "common/header.ftl">
