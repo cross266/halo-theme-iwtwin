@@ -13,7 +13,6 @@
             </div>
             </#if>
             <#if settings.first_aside?? && settings.first_aside != ''>
-                <div id="wpcom-lastest-news-2" class="widget widget_lastest_news"><h3 class="widget-title">${settings.first_aside!}</h3>
                     <@postTag method="listByCategorySlug" categorySlug="${settings.first_aside!}">
                         <ul>
                             <#list posts as post>
