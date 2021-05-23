@@ -43,9 +43,16 @@
                 <div class="entry-content">
                     <div class="linkers">
                         <ul>
+                        <@linkTag method="list">
                             <li><a href="http://www.kuya123.com/" target="_blank" rel="nofollow noopener noreferrer">酷呀小站</a></li>
-                            <li><a href="http://www.kuya123.com/" target="_blank" rel="nofollow noopener noreferrer">酷呀小站</a></li>
-                            <li><a href="http://www.kuya123.com/" target="_blank" rel="nofollow noopener noreferrer">酷呀小站</a></li>
+                            <#list links as link>
+                                <li>
+                                    <a href="${link.url!}" target="_blank" rel="nofollow noopener noreferrer">
+                                        ${link.name!}
+                                    </a>
+                                </li>
+                            </#list>
+                        </@linkTag>
                         </ul>
                     </div>
                 </div>
