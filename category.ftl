@@ -23,7 +23,7 @@
                                     <a class="item-category" href="${category.fullPath}" target="_blank">${category.name}</a>
                                 </div>
                                 <h2 class="item-title">
-                                    <a href="{post.fullPath!}" target="_blank" rel="bookmark">
+                                    <a href="${post.fullPath!}" target="_blank" rel="bookmark">
                                         ${post.title!}        
                                     </a>
                                 </h2>
