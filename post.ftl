@@ -16,9 +16,8 @@
                                 <#list categories as category>
                                     <span class="dot">•</span>
                                     <a href="${category.fullPath!}" rel="category tag">${category.name!}</a>  
-                                    <span class="dot">•</span>
                                 </#list>
-                                
+                                <span class="dot">•</span>
                                 <span>阅读 ${post.visits!}</span>
                             </div>
                     </div>
