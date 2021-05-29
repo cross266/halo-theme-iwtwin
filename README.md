@@ -9,7 +9,7 @@
 #### 在线预览
 https://www.kuya123.com
 #### 图片预览
-![image](https://user-images.githubusercontent.com/5645103/119968107-a7471d80-bfdf-11eb-8275-76e710a64a8c.png)
+![image](https://user-images.githubusercontent.com/5645103/120058398-2c344480-c07d-11eb-9df8-bff076ca4156.png)
 
 
 ## 安装
