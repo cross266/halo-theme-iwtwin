@@ -13,7 +13,7 @@
                             <div class="main-slider wpcom-slider swiper-container pull-left">
                                 <ul class="swiper-wrapper">
                                     <@postTag method="listByCategorySlug" categorySlug="${settings.carousel_big!}">
-                                        <#list posts as post>
+                                        <#list posts?sort_by("editTime")?reverse as post>
                                             <#if post_index gte 2 &&post_index lte 4>
                                             <li class="swiper-slide">
                                                 <a href="${post.fullPath!}">
@@ -36,7 +36,7 @@
                             <!-- 轮播小图 -->
                             <ul class="feature-post pull-right">
                                     <@postTag method="listByCategorySlug" categorySlug="${settings.carousel_big!}">
-                                        <#list posts as post>
+                                        <#list posts?sort_by("editTime")?reverse as post>
                                             <#if post_index <2>
                                                 <li>
                                                     <a href="${post.fullPath!}">
