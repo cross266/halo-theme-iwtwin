@@ -15,15 +15,15 @@
             <#if settings.first_aside?? && settings.first_aside != ''>
                 <div id="wpcom-lastest-news-2" class="widget widget_lastest_news">
                     <@postTag method="listByCategorySlug" categorySlug="${settings.first_aside!}">
-                        <ul>
-                            <#list posts as post>
+                        <ul style="margin-bottom:20px;">
+                            <#list posts?sort_by("createTime")?reverse as post>
                             <#if post_index lt 10>
                                 <li><a href="${post.fullPath!}" title="${post.title!}">${post.title!}</a></li>
                             </#if>
                             </#list>
+                            <li class="pull-right"><a href="${blog_url!}/categories/${settings.first_aside!}">查看更多</a></li>
                         </ul>
                     </@postTag>
-                    <div><p><a href="${blog_url!}/categories/${settings.first_aside!}">查看更多</a></p></div>  
                 </div>
                 <#else>
             </#if>
@@ -32,8 +32,8 @@
             <#if settings.second_aside?? && settings.second_aside != ''>
                 <div id="wpcom-post-thumb-3" class="widget widget_post_thumb">
                         <@postTag method="listByCategorySlug" categorySlug="${settings.second_aside!}">
-                            <ul>
-                                <#list posts as post>
+                            <ul style="margin-bottom:20px;">
+                                <#list posts?sort_by("createTime")?reverse as post>
                                 <#if post_index lt 6>
                                     <li class="item">
                                         <div class="item-img">
@@ -47,9 +47,9 @@
                                     </li>
                                 </#if>
                                 </#list>
+                                <li class="pull-right"><a href="${blog_url!}/categories/${settings.second_aside!}">查看更多</a></li>
                             </ul>
                         </@postTag>
-                    <div><p><a href="${theme_base!}/categories/${settings.second_aside!}">查看更多</a></p></div>   
                 </div>
             </#if>
             <!--标签1-->
