@@ -9,7 +9,6 @@
 #### 在线预览
 https://www.kuya123.com
 #### 图片预览
-![screenshot](https://user-images.githubusercontent.com/5645103/121815062-f14e2580-cca6-11eb-9fb1-9cb4e118b754.png)
 ![screenshot](https://cdn.jsdelivr.net/gh/cross266/myimage@master/screenshot.png)
 
 ## 安装
