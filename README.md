@@ -10,8 +10,6 @@
 https://www.kuya123.com
 #### 图片预览
 ![screenshot](https://user-images.githubusercontent.com/5645103/121815062-f14e2580-cca6-11eb-9fb1-9cb4e118b754.png)
-![screenshot](https://www.kuya123.com/upload/2021/06/screenshot-1953be8d8c9d4302a137212c2358e575.png)
-
 
 
 ## 安装
