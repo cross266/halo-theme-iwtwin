@@ -63,3 +63,8 @@ aside:
           label: 开启
         - value: false
           label: 关闭
+      tag_number:
+      name: tag_number
+      label: 标签显示数量
+      type: number
+      placeholder: '不填写默认全部'

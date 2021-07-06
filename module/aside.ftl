@@ -58,7 +58,9 @@
             <div class="tagcloud">
             <@tagTag method="list">
               <#list tags as tag>
+                <#if post_index lte ${settings.tag_number!12}>
                 <a href="${tag.fullPath!}" class="tag-cloud-link tag-link-5283 tag-link-position-1" style="font-size: 9.858407079646pt;">${tag.name!}</a>
+                </#if>
               </#list>
             </@tagTag>
             </div>
