@@ -82,9 +82,8 @@
                                 </div>
                             </li>
                         </#list>
-                    </@postTag>
+                   </@postTag>
                 </ul>
-
             </div>
         </div>
 

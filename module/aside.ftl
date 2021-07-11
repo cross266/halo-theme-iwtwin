@@ -2,7 +2,7 @@
         <aside class="sidebar">
             <#if settings.weixin_gongzhonghao?? && settings.weixin_gongzhonghao != ''>
             <div id="wpcom-post-thumb-3" class="widget widget_post_thumb">
-                <p style="font-size:16px;">关注本站公众号</p>
+                <p style="font-size:16px;">${settings.gongzhonghao_remark!'关注本站公众号'}</p>
                 <ul>
                     <li class="item">
                         <div >
@@ -58,8 +58,13 @@
             <div class="tagcloud">
             <@tagTag method="list">
               <#list tags as tag>
-                <a href="${tag.fullPath!}" class="tag-cloud-link tag-link-5283 tag-link-position-1" style="font-size: 9.858407079646pt;">${tag.name!}</a>
+                <#if tag_index lt settings.tag_number?default(100)?number>
+                <a href="${tag.fullPath!}" class="tag-cloud-link tag-link-5283 tag-link-position-1" style="font-size: 9.85pt;">${tag.name!}</a>
+                </#if>
               </#list>
+              <#if tags?size gt settings.tag_number?default(100)?number>
+                <a href="${blog_url!}/tags" class="tag-cloud-link tag-link-5283 tag-link-position-1" style="font-size: 9.85pt;color:orange">更多>></a>
+              </#if>
             </@tagTag>
             </div>
             </#if>

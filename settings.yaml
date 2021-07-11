@@ -33,9 +33,14 @@ aside:
   items:
     weixin_gongzhonghao:
       name: weixin_gongzhonghao
-      label: 微信公众号
+      label: 公众号二维码
       type: attachment
       placeholder: '请选择微信公众号'
+    gongzhonghao_remark:
+      name: gongzhonghao_remark
+      label: 公众号字描述
+      type: text
+      placeholder: '图片描述'
     carousel_big:
       name: carousel_big
       label: 轮播图设置
@@ -63,3 +68,8 @@ aside:
           label: 开启
         - value: false
           label: 关闭
+    tag_number:
+      name: tag_number
+      label: 标签显示数量
+      type: number
+      default: 100
