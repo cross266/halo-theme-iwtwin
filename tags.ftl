@@ -19,7 +19,7 @@
                                     <li class="item">
                                         <span class="date pull-right">${tag.createTime?date}</span>
                                         <a href="${tag.fullPath!}" target="_blank" rel="bookmark">
-                                            ${tag.name}  
+                                            ${tag.name}(${tag.postCount}) 
                                         </a>
                                     </li>
                                 </#list>

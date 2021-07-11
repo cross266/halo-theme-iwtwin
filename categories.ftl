@@ -19,7 +19,7 @@
                                     <li class="item">
                                         <span class="date pull-right">${category.createTime?date}</span>
                                         <a href="${category.fullPath!}" target="_blank" rel="bookmark">
-                                            ${category.name}  
+                                            ${category.name}(${category.postCount})  
                                         </a>
                                     </li>
                                 </#list>

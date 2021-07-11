@@ -58,11 +58,11 @@
             <div class="tagcloud">
             <@tagTag method="list">
               <#list tags as tag>
-                <#if tag_index lt settings.tag_number?default(500)?number>
+                <#if tag_index lt settings.tag_number?default(100)?number>
                 <a href="${tag.fullPath!}" class="tag-cloud-link tag-link-5283 tag-link-position-1" style="font-size: 9.85pt;">${tag.name!}</a>
                 </#if>
               </#list>
-              <#if tags?size gt settings.tag_number?default(500)?number>
+              <#if tags?size gt settings.tag_number?default(100)?number>
                 <a href="${blog_url!}/tags" class="tag-cloud-link tag-link-5283 tag-link-position-1" style="font-size: 9.85pt;color:orange">更多>></a>
               </#if>
             </@tagTag>
