@@ -21,14 +21,6 @@ https://www.kuya123.com
 
 等待提示安装完成
 
-### 在线拉取方式
-进入博客后台-外观-主题-安装
-
-选择远程下载
-
-远程地址填写 https://github.com/cross266/halo-theme-iwtwin.git
-
-点击下载，等待下载完成
 
 **主题个性化的配置请在 Iwtwin 的主题设置中设置！**
 
