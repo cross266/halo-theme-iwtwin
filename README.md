@@ -35,3 +35,12 @@ https://www.kuya123.com
 V1.1.0 新增了代码高亮，使用prism
 
 ***作者第一次做主题，布局能力有限，如有更好的建议，请通过issue留言***
+
+
+
+# 另外还有一个主题，是从其他博客移植的，如果有人喜欢，可以关注公众号：程序员阿牛，回复：joe，即可获得安装包
+## 预览 
+#### 在线预览
+https://www.javax.vip
+#### 图片预览
+![screenshot](https://cdn.jsdelivr.net/gh/cross266/joe-static@1.1/image/screenshot.png)
